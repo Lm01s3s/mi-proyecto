@@ -12,6 +12,29 @@ const niveles = [
         casillas: [
             { id: "c1", top: "10%", left: "80%", respuesta: "Uretra" },
         ]
+    },
+    {
+        imagen: "./Imagenes/nivel3.png",
+        casillas: [
+            { id: "c1", top: "12%", left: "80%", respuesta: "Vejiga"}
+        ]
+    },
+    {
+        imagen: "./Imagenes/nivel4.png",
+        casillas: [
+            { id: "c1", top: "30%", left: "3%", respuesta: "Conducto deferente"},
+            { id: "c2", top: "90%", left: "55%", respuesta: "Epídimo"}
+        ]
+    },
+    {
+        imagen: "./Imagenes/nivel5.png",
+        casillas: [
+            { id: "c1", top: "3%", left: "50%", respuesta: "Ureter D"},
+            { id: "c2", top: "33%", left: "77%", respuesta: "Vejiga"},
+            { id: "c3", top: "70%", left: "77%", respuesta: "Escroto"},
+            { id: "c4", top: "94%", left: "38%", respuesta: "Epidídimo"},
+            { id: "c5", top: "94%", left: "9%", respuesta: "Testículo"}
+        ]
     }
 ];
 
