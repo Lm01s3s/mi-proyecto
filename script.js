@@ -38,7 +38,7 @@ const niveles = [
     }
 ];
 
-let nivelActual = 3;
+let nivelActual = 0;
 
 // 2. Función para normalizar texto (quita tildes)
 function quitarTildes(texto) {
