@@ -1,0 +1,70 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+#contenedor-imagen {
+    position: relative; /* Crucial: ancla los inputs a este contenedor, no a la pantalla */
+    display: inline-block; /* Se ajusta al tamaño exacto de la imagen */
+    margin-bottom: 20px;
+}
+
+#imagen-base {
+    display: block;
+    width: 600px; /* Tamaño base, ajústalo según tu imagen */
+    max-width: 100%;
+    height: auto;
+}
+
+.input-respuesta {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Coordenadas X e Y para cada input. 
+   Usa porcentajes para que mantengan su posición si la imagen cambia de tamaño */
+#casilla1 {
+    top: 18%;
+    left: 77%;
+}
+
+#casilla2 {
+    top: 40%;
+    left: 76%;
+}
+
+/* Clases dinámicas aplicadas por JavaScript */
+.correcto {
+    border-color: #28a745;
+    background-color: #e8f5e9;
+}
+
+.incorrecto {
+    border-color: #dc3545;
+    background-color: #ffebee;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

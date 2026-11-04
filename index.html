@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Imagen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Identifica los elementos</h2>
+    
+    <div id="contenedor-imagen">
+        <!-- Reemplaza el src con la ruta de tu imagen real -->
+        <img src="imagenes/Screenshot 2026-11-03 203457.png" alt="Esquema" id="imagen-base">
+
+        <!-- Casillas flotantes -->
+        <input type="text" id="casilla1" class="input-respuesta" placeholder="Elemento 1">
+        <input type="text" id="casilla2" class="input-respuesta" placeholder="Elemento 2">
+    </div>
+
+    <button onclick="comprobarRespuestas()">Comprobar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
