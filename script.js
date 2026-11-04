@@ -23,7 +23,7 @@ const niveles = [
         imagen: "./Imagenes/nivel4.png",
         casillas: [
             { id: "c1", top: "30%", left: "3%", respuesta: "Conducto deferente"},
-            { id: "c2", top: "90%", left: "55%", respuesta: "Epídimo"}
+            { id: "c2", top: "90%", left: "55%", respuesta: "Epidídimo"}
         ]
     },
     {
@@ -38,7 +38,7 @@ const niveles = [
     }
 ];
 
-let nivelActual = 0;
+let nivelActual = 3;
 
 // 2. Función para normalizar texto (quita tildes)
 function quitarTildes(texto) {
